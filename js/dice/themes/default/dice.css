@@ -1,0 +1,6 @@
+.default > .dice-bg,
+.default > .dice-id {
+  position: absolute;
+  left: 0px; top: 0px; width: 60px; height: 60px;
+  background-image: url(#{this.getThemeGfxFile('/dice_60px.png')});
+}

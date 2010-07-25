@@ -1,0 +1,5 @@
+:src_dirs:
+  - ./js
+:packages:
+  dice:
+    - dice

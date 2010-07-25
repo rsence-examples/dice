@@ -1,0 +1,18 @@
+Simple Dice Component Example
+
+Dependencies:
+RSence 2.0 or higher: http://rubygems.org/gems/rsence
+
+Usage:
+Drop into the project plugin directory and fire it up! 
+For example:
+- rsence initenv myproject
+- Move (or copy) this solitaire bundle directory into myproject/plugins
+- rsence run -f myproject
+
+Licence:
+LGPL v3
+
+More information: 
+http://rsence.org/projects/rsence
+

@@ -1,0 +1,20 @@
+:dice1:
+  :restore_default: false
+  :value_call:
+    :method: random_dice
+    :uses_msg: false
+:dice2:
+  :restore_default: false
+  :value_call:
+    :method: random_dice
+    :uses_msg: false
+:dice3:
+  :restore_default: false
+  :value_call:
+    :method: random_dice
+    :uses_msg: false
+:roll_button:
+  :value: 0
+  :responders:
+    - :method: :roll_dice
+

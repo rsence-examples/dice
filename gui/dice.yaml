@@ -1,0 +1,35 @@
+type: GUITree
+version: 0.6
+
+dependencies:
+- default_theme
+- controls
+- dice
+
+class: RSence.GUIApp
+options:
+  label: Dice Example
+subviews:
+- class: HWindow
+  rect: [10, 10, 220, 132]
+  options:
+    label: Dice Example
+    noResize: true
+    closeButton: true
+    minSize: [220, 132]
+    maxSize: [220, 132]
+  subviews:
+  - class: HDice
+    rect: [8, 8, 60, 60]
+    bind: :values.dice1
+  - class: HDice
+    rect: [76, 8, 60, 60]
+    bind: :values.dice2
+  - class: HDice
+    rect: [144, 8, 60, 60]
+    bind: :values.dice3
+  - class: HClickButton
+    rect: [8, 76, 120, 24, 8, ~]
+    bind: :values.roll_button
+    options:
+      label: Roll Dice
